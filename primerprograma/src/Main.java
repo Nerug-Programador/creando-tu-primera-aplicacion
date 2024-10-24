@@ -19,6 +19,14 @@ public class Main {
 
         int clasificacion = (int) (media / 2);
         System.out.println(clasificacion);
+
+        int celsius = 40;
+        double fahrenheitSinCasting = (celsius * 1.8) + 32;
+        int fahrenheitConCasting = (int) fahrenheitSinCasting;
+
+        System.out.println("La temperatura conversión de " + celsius + "C° a °F es: " + fahrenheitSinCasting + "°F");
+        System.out.println("La temperatura conversión de " + celsius + "C° a °F es: " + fahrenheitConCasting + "°F");
+
     }
 
 }
