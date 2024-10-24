@@ -9,5 +9,13 @@ public class Main {
 
         double media = (8.2 + 6.0 + 9.0) / 3;
         System.out.println(media);
+
+        String sinopsis = """
+                Matris es una paradoja
+                la mejor pelicula de fin del milenio
+                fue lanzada en: 
+                """ + fechaDeLanzamiento;
+        System.out.println(sinopsis);
     }
+
 }
