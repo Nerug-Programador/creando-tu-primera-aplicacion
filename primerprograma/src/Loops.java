@@ -7,7 +7,7 @@ public class Loops {
         double nota = 0;
         double mediaDeEvaluaciones = 0;
 
-//Evaluando la película
+//Evaluando la película con for
         for (int i = 0; i < 10; i++) {
             System.out.println("Escribe la nota que le darías a la película Matrix");
             nota = teclado.nextDouble();
